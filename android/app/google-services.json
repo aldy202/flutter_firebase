@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "611784339630",
+    "project_id": "paml-e1ec1",
+    "storage_bucket": "paml-e1ec1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611784339630:android:16c230b1e1d44c0c01fd3f",
+        "android_client_info": {
+          "package_name": "com.example.materi_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611784339630-ump4acd6lh2ncdhi153foqrp5lrgo6mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAVTHejialLS97bvFAipEYT1H53KF3Xs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611784339630-ump4acd6lh2ncdhi153foqrp5lrgo6mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
