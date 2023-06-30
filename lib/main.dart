@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:materi_firebase/view/contact.dart';
+import 'package:materi_firebase/view/current_location.dart';
 import 'package:materi_firebase/view/register.dart';
 import 'package:materi_firebase/view/login.dart';
 
@@ -17,11 +18,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/',
-      routes: {
-        '/': (context) => Login(),
-        '/login': (context) => Login(),
-      },
+      title: 'Fluter App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const CurrentLocation(),
     );
   }
 }
